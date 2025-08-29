@@ -5,8 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [your_github_username_here's GitHub Profile](FIXTHISURL-https://github.com/your_username)
-
+1. https://github.com/JamesMcMonagle/JamesMcMonagle/edit/main/README.md
 ## Part 2 - Research
 
 | Windows | Linux / Mac | Action |
