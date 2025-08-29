@@ -47,7 +47,8 @@ Put your words here
 10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
 11. View the contents of `DirA`: 
 12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+13. Delete / remove both `fodder.txt` AND `Dir B`: Remove-Item -Path .\fodder.txt, '.\Dir B' -Recurse -Force
+
 
 ## Citations
 
