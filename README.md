@@ -29,7 +29,7 @@ My OS is:
 - [] Linux
 - [] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: PowerShell
 
 ### Navigating My OS on the Command Line
 
