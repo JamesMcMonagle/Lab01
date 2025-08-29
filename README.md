@@ -32,21 +32,21 @@ My Command Line Shell is: PowerShell
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory:
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+1. Full / absolute path to your user's home directory:$HOME
+2. Create a directory named `DirA`: New-Item -Path "$HOME\DirA" -ItemType Directory
+3. Create a directory named `Dir B`:New-Item -Path "$HOME\Dir B" -ItemType Directory
+4. Go into `DirA`: Set-Location -Path "$HOME\DirA"
+5. Go into `Dir B` from `DirA`: Set-Location -Path "$HOME\Dir B"
+6. Return to your user's home directory:  Set-Location -Path $HOME
+7. Create a file named `test.txt`:  New-Item -Path "$HOME\test.txt" -ItemType File
+8. Move the file named `test.txt` into `DirA`:  Move-Item -Path "$HOME\test.txt" -Destination "$HOME\DirA\test.txt"
+9. Contents of `test.txt`: Set-Content -Path "$HOME\DirA\test.txt" -Value
 ```
-Put your words here
+"Your're doing a great job keep going!!!"
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`:Set-Content -Path "$HOME\DirA\test.txt" -Destination "$HOME\DirA\copy.txt"
+11. View the contents of `DirA`:  Get-ChildItem -Path "$HOME\DirA"
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: Copy-Item -Path "$HOME\DirA\test.txt" -Destination "$HOME\Dir B\fodder.txt"
 13. Delete / remove both `fodder.txt` AND `Dir B`: Remove-Item -Path .\fodder.txt, '.\Dir B' -Recurse -Force
 
 
