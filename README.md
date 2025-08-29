@@ -1,7 +1,7 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: JD McMonagle 
+- Email: mcmonagle.2@wright.edu
 
 ## Part 1 - GitHub Profile
 
@@ -11,16 +11,16 @@
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |        |
-| Get-Location | pwd    |        |
+| help    | man         |   This will show info about commands fro powershell      |
+| Get-Location | pwd    |   Shows info about your current location in powershell     |
 | Get-ChildItem | ls    |        |
-| mkdir   | mkdir       |        |
-| Set-Location | cd     |        |
-| New-Item | touch      |        |
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| mkdir   | mkdir       |   Creates a new item    |
+| Set-Location | cd     |   Makes the working station a specific location    |
+| New-Item | touch      |   Makes a new Item  |
+| Move-Item | mv        |   Moves in item to another location  |
+| Copy-Item | cp        |   Copies an item from one location to another |
+| Remove-Item | rm      |   Deletes an item like a folder or file     |
+| notepad.exe | vim     |     This will open notepad in powershell   |
 
 ## Part 3 - Command Line Navigation
 
