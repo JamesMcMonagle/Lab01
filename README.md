@@ -13,7 +13,7 @@
 | ---     | ---         | ---    |
 | help    | man         |   This will show info about commands fro powershell      |
 | Get-Location | pwd    |   Shows info about your current location in powershell     |
-| Get-ChildItem | ls    |        |
+| Get-ChildItem | ls    |    Gets the files from your system    |
 | mkdir   | mkdir       |   Creates a new item    |
 | Set-Location | cd     |   Makes the working station a specific location    |
 | New-Item | touch      |   Makes a new Item  |
