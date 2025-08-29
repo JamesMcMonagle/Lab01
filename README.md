@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. https://github.com/JamesMcMonagle/JamesMcMonagle/edit/main/README.md
+1. https://github.com/JamesMcMonagle/JamesMcMonagle/blob/main/README.md
 ## Part 2 - Research
 
 | Windows | Linux / Mac | Action |
